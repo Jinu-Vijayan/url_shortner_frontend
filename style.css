@@ -1,0 +1,46 @@
+header{
+    width: 100%;
+    text-align: center;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+input {
+    width: 70%;
+    padding: 0.625rem;
+    font-size: 1.2rem;
+    border-radius: 0.625rem;
+    border: 1px solid black;
+}
+
+button{
+    padding: 0.625rem 1.5rem;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    background-color: #0000ff;
+    color: #ffffff;
+    border: none;
+}
+
+#loading_message{
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.hide{
+    display: none;
+}
